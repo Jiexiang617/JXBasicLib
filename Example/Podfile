@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JXBasicLib_Example' do
+  pod 'JXBasicLib', :path => '../'
+
+  target 'JXBasicLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

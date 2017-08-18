@@ -1,0 +1,16 @@
+PODS:
+  - JXBasicLib (0.1.0)
+
+DEPENDENCIES:
+  - JXBasicLib (from `../`)
+
+EXTERNAL SOURCES:
+  JXBasicLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXBasicLib: bb2db4f5a2665d6657d6ff89a8861de66aa2884d
+
+PODFILE CHECKSUM: e916fafeba39cca90cde0a2ac4dbae92301b724b
+
+COCOAPODS: 1.2.1
