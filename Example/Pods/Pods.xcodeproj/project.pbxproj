@@ -17,6 +17,7 @@
 		88CADC3CFA8F8895D9AA69C324F1C8C0 /* UIViewController+JXSelecteSinglePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E45DFD3C3BF4936CF26E38942DE9AE /* UIViewController+JXSelecteSinglePhoto.m */; };
 		8E43402CF5AA11526F59DC2D9D95E749 /* UIViewController+JXSelecteSinglePhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C233E297047788A51C571182DDC2A9 /* UIViewController+JXSelecteSinglePhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4D5643758A9F5DADD60049C0AB55E11 /* Pods-JXBasicLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F32E986E6CF93A1CF947892D7DBC8D /* Pods-JXBasicLib_Example-dummy.m */; };
+		EBA082731F4FB1EC00B0420F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA082721F4FB1EC00B0420F /* UIColorExtension.swift */; };
 		FC3331ADD3DEEA21822E6A090F251742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,11 +39,11 @@
 		21F32E986E6CF93A1CF947892D7DBC8D /* Pods-JXBasicLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXBasicLib_Example-dummy.m"; sourceTree = "<group>"; };
 		2629925DDF68E85393402E128848EE71 /* Pods-JXBasicLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXBasicLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		339419E54A7F1B2ECFE4931E8C67ADC2 /* Pods-JXBasicLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXBasicLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		38086A349324B48B66B0739967761165 /* Pods-JXBasicLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JXBasicLib_Tests.modulemap"; sourceTree = "<group>"; };
+		38086A349324B48B66B0739967761165 /* Pods-JXBasicLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JXBasicLib_Tests.modulemap"; sourceTree = "<group>"; };
 		39509266ED89557BBD7B782D26BF8EDA /* Pods-JXBasicLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXBasicLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39512B47D75BE5557957C16BDBD16836 /* JXBasicLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXBasicLib.framework; path = JXBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4382CE410898CD8FEBB2F146B6082B6E /* Pods-JXBasicLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JXBasicLib_Example.modulemap"; sourceTree = "<group>"; };
-		447201CA5B6B1D54D335A1EF9C1DA132 /* Pods_JXBasicLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXBasicLib_Example.framework; path = "Pods-JXBasicLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39512B47D75BE5557957C16BDBD16836 /* JXBasicLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXBasicLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4382CE410898CD8FEBB2F146B6082B6E /* Pods-JXBasicLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JXBasicLib_Example.modulemap"; sourceTree = "<group>"; };
+		447201CA5B6B1D54D335A1EF9C1DA132 /* Pods_JXBasicLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXBasicLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E45DFD3C3BF4936CF26E38942DE9AE /* UIViewController+JXSelecteSinglePhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXSelecteSinglePhoto.m"; sourceTree = "<group>"; };
 		4D6584F9ECC6EDF603822B49C7119672 /* Pods-JXBasicLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXBasicLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -50,10 +51,10 @@
 		764A65F2C9B9062B14A1FF19DBE38989 /* Pods-JXBasicLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXBasicLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7C9601368C30379AC5457F21A6C99CAB /* Pods-JXBasicLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXBasicLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7DFBE54C1AE490DBB57483F056A3CCBC /* Pods-JXBasicLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXBasicLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8547DAEA429FE9A1BEABA720AE178855 /* Pods_JXBasicLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXBasicLib_Tests.framework; path = "Pods-JXBasicLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8547DAEA429FE9A1BEABA720AE178855 /* Pods_JXBasicLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXBasicLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8902DE6CC3D43CAB322ABE68CA373FDB /* Pods-JXBasicLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXBasicLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CFE65BEEB86661194EA3E6F617F03EC /* JXBasicLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBasicLib-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB8F2EF091FDF15419861FF165EA300 /* JXBasicLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBasicLib-prefix.pch"; sourceTree = "<group>"; };
 		AB56ABC41B8D09CE1CC666A64714ECC9 /* Pods-JXBasicLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXBasicLib_Example-resources.sh"; sourceTree = "<group>"; };
 		AF13815FB5A020EBBF7BDA4C8C2BEDF2 /* Pods-JXBasicLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXBasicLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -62,8 +63,9 @@
 		BD66F594EBF66B5D38570FFDAFB1D797 /* JXBasicLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXBasicLib-dummy.m"; sourceTree = "<group>"; };
 		C40ED4B20B58A62E0613CDECEDF39F71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3BCB8024E023F5B4E4B138BAE745EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D818A5FDE3AC56819DF70937BC4208A3 /* JXBasicLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JXBasicLib.modulemap; sourceTree = "<group>"; };
+		D818A5FDE3AC56819DF70937BC4208A3 /* JXBasicLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JXBasicLib.modulemap; sourceTree = "<group>"; };
 		D96162A96AAFE64A835019D5066FC869 /* Pods-JXBasicLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXBasicLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBA082721F4FB1EC00B0420F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +141,9 @@
 		51EE0A74FDADB2B1E37BC2D05249DAB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EBA082711F4FB1EC00B0420F /* Extension */,
 				EC51511CD4DD0F9756BDE461B2A73EEA /* JXSelecteSinglePhoto */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -150,7 +152,6 @@
 			children = (
 				51EE0A74FDADB2B1E37BC2D05249DAB5 /* Classes */,
 			);
-			name = JXBasicLib;
 			path = JXBasicLib;
 			sourceTree = "<group>";
 		};
@@ -226,13 +227,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EBA082711F4FB1EC00B0420F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBA082721F4FB1EC00B0420F /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EC51511CD4DD0F9756BDE461B2A73EEA /* JXSelecteSinglePhoto */ = {
 			isa = PBXGroup;
 			children = (
 				05C233E297047788A51C571182DDC2A9 /* UIViewController+JXSelecteSinglePhoto.h */,
 				46E45DFD3C3BF4936CF26E38942DE9AE /* UIViewController+JXSelecteSinglePhoto.m */,
 			);
-			name = JXSelecteSinglePhoto;
 			path = JXSelecteSinglePhoto;
 			sourceTree = "<group>";
 		};
@@ -362,6 +370,7 @@
 			files = (
 				1A08F5CA54CBCF844F3F2CD9A14A0AC7 /* JXBasicLib-dummy.m in Sources */,
 				88CADC3CFA8F8895D9AA69C324F1C8C0 /* UIViewController+JXSelecteSinglePhoto.m in Sources */,
+				EBA082731F4FB1EC00B0420F /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

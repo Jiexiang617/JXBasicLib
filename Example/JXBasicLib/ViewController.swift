@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
 
+class ViewController: UITableViewController {
+    override func viewDidLayoutSubviews() {
+        
+    }
 }
 
 extension ViewController {
