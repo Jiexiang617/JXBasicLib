@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T14:12:59.349Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="LNHFie1SpHJYqPk0pcqL" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T14:13:21.033Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="wyBfFt5rpGHR287ASYlQ" version="14.4.7" type="github">
   <diagram id="oYlVIPrETy6-Hh5NweHa" name="第 1 页">
     <mxGraphModel dx="861" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
         <mxCell id="CWjup87lTKB9hHp7AxHx-41" value="根据最新的日志配置项，或开启新任务，或结束旧任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1020" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CWjup87lTKB9hHp7AxHx-45" value="N个tail开启收集任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CWjup87lTKB9hHp7AxHx-45" value="N个tail开启收集任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1340" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
